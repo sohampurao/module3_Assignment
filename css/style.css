@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/* Navigation Bar */
+.nav-brand {
+    float: left;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.navbar {
+    width: 100%;
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+.collapse{
+    width: 100%;
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li{
+    padding: 5px 0;
+    border-bottom: 3px solid black;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Main Content */
+.hhh {
+    font-size: 2rem;
+    font-weight: 600;
+}
+#heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#content {
+    background-color: #8f8f8f;
+    text-align: justify;
+    margin: 10px;
+    height: 1000px;
+}
+.text {
+    padding: 5px;
+}
+
+/* For mobile device */
+
+@media (min-width:300px) and (max-width:600px) {
+    #content {
+        height: auto;
+        margin: 30px;
+    }
+}
